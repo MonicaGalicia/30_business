@@ -6,7 +6,7 @@
 	background-repeat:no-repeat;
 }
 
-.bg-black{
+.bg-black{  /*para dar opacidad al fondo*/
 	background: rgba(0,0,0,0.5);
 }
 
@@ -16,11 +16,11 @@ nav.navbar  { /*color navegador*/
 	border:transparent;
 }
 
-li a {
+li a {   /*cambiar el color a letras nav*/
 	color:white !important;
 }
 
-.size{
+.size{  /*tamaño iconos*/
 	font-size:2em;
 	color:#075784;
 }
@@ -43,17 +43,17 @@ margin-top:10%;
 	color:white;
 }
 
-.bg-blue{
+.bg-blue{ /*fondo azul*/
 	background-color:blue;
 	opacity:0.5;
 	height:100px;
 }
 
-.blue{
+.blue{ /*letras azules*/
 	color:#075784;
 }
 
-.icon{
+.icon{  /*glyphicon*/
 	margin-top:5%;
 }
 
@@ -64,17 +64,18 @@ margin-top:10%;
 
 
 
-.separador{
-	margin:auto;
-	display:block;
+.separador{  /*entre una página y otra*/
+	
+}
+#sep{
+	margin-top:-6%;
 }
 
-
-#logo2{
+#logo2{   /*logo tested 2da parte*/
 	width:20%;
 }
 
-#compu{
+#compu{   /*imagen computadora*/
 	width:110%;
 }
 
@@ -83,7 +84,32 @@ margin-top:10%;
 	height:80%;
 }
 
-.bg-grey{
+.bg-grey{  /*footer*/
 	background-color:grey;
 	height:80px;
 }
+/*formulario*/
+
+input , textarea{
+	width:60%;
+	margin:auto;
+	display:block;
+	margin-bottom:0px;
+}
+
+textarea{
+	height:200px;
+}
+
+#botonformulario{
+	width:20%;
+	height:30px;
+	color:white;
+}
+.btn-pruebalo{
+	margin:auto;
+	display:block;
+	width:20%;
+	border: 1px solid white;
+}
+/*formulario*/
