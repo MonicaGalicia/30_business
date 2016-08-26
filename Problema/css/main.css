@@ -1,14 +1,14 @@
 #bg-imagen{ /*fondo*/
 	background-image:url("../image/large.jpg");
 	background-size:cover;
-	height:700px;
+	height:600px;
 	opacity:0.9;
 	background-repeat:no-repeat;
 }
 
 
 
-#logo{
+.logo{
 	width:30%;
 }
 
@@ -23,7 +23,8 @@ li a {
 
 .jumbotron{
 	background-color:transparent;
-	margin-top:10%;
+	margin-top:5%;
+	margin-bottom:7%;
 
 }
 
@@ -34,4 +35,30 @@ li a {
 .bg-blue{
 	background-color:blue;
 	opacity:0.5;
+}
+
+.blue{
+	color:blue;
+}
+
+.glyphicon{
+	color:blue;
+	font-size:2em;
+}
+
+.margin{
+	margin:1% 5% 30% 5%;
+}
+
+.separador{
+	margin:auto;
+	display:block;
+}
+
+#logo2{
+	width:20%;
+}
+
+#compu{
+	width:115%;
 }
