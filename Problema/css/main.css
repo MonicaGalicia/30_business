@@ -1,16 +1,15 @@
 #bg-imagen{ /*fondo*/
 	background-image:url("../image/large.jpg");
 	background-size:cover;
-	height:600px;
+	
 	opacity:0.9;
 	background-repeat:no-repeat;
 }
 
-
-
-.logo{
-	width:30%;
+.bg-black{
+	background: rgba(0,0,0,0.5);
 }
+
 
 nav.navbar  { /*color navegador*/
     background-color:transparent;
@@ -18,14 +17,26 @@ nav.navbar  { /*color navegador*/
 }
 
 li a {
-	color:black !important;
+	color:white !important;
 }
 
+.size{
+	font-size:2em;
+	color:#075784;
+}
 .jumbotron{
 	background-color:transparent;
 	margin-top:5%;
 	margin-bottom:7%;
+	color:white;
 
+}
+
+.mrg-left{
+	margin-left:20%;
+}
+.margin{
+margin-top:10%;
 }
 
 .text-white{
@@ -35,10 +46,15 @@ li a {
 .bg-blue{
 	background-color:blue;
 	opacity:0.5;
+	height:100px;
 }
 
 .blue{
-	color:blue;
+	color:#075784;
+}
+
+.icon{
+	margin-top:5%;
 }
 
 .glyphicon{
@@ -46,19 +62,28 @@ li a {
 	font-size:2em;
 }
 
-.margin{
-	margin:1% 5% 30% 5%;
-}
+
 
 .separador{
 	margin:auto;
 	display:block;
 }
 
+
 #logo2{
 	width:20%;
 }
 
 #compu{
-	width:115%;
+	width:110%;
+}
+
+#img{
+	width:100%;
+	height:80%;
+}
+
+.bg-grey{
+	background-color:grey;
+	height:80px;
 }
